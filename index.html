@@ -1,107 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-      <head>
-         <link href="style.css" rel="stylesheet">
-            <title>Bootstrap Example</title>
-            <meta charset="utf-8">
-            <script src="quiz.js">  </script>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="css/bootstrap.min.css">
-            <!----------------animation files----------->
-            <link rel="stylesheet" href="css/animate.css">
-       <script src= js/jquery.min.js></script></head>
-       <script src="js/bootstrap.min.js"></script>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="style1.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
 <body>
-      <div class="row">
-            <div class="container">
-                <h1>ONLINE QUIZ</h1>
+       
+<nav class="navbar navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSite Logo...</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#maheen">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+          </div>
+
+          <div  class="collapse navbar-collapse" id ="maheen">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-eye-open"></span>Newss</a>
+                <ul class ="dropdown-menu">
+                        <li><a href="#">News1</a></li>
+                        <li><a href="#">News2</a></li>
+                        <li><a href="#">News3</a></li>
+                    </ul>
+
+                </li>       
+            <li><a href="#"><span class="glyphicon glyphicon-globe"></span>About Us</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>Contact us</a></li>
+          </ul>
+         
+          <div class="nav navbar-nav navbar-right">
+              <li><a> <span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+              <li><a><span class="glyphicon glyphicon-user"></span>Login</a></li>
+          </div>
+          </div>
+        </div>
+      </nav>
+        <br>
+    <div class="container">
+          <div class="row jumbotron">
+             <div class="col-sm-8">
+                 <h2>Dummy Text</h2>
+                 <p>   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the
+                      1500s, when an unknown printer took a galley of type and scrambled it
+                       to make a type specimen book. It has survived not only five centuries, 
+                       but also the leap into electronic typesetting, remaining essentially unchanged.
+                 </p>
+                </div>
+             <div class="col-sm-4">
+               <img src="images/1.jpg" class="img-responsive img-thumbnail " >
+             </div>
+        </div>
+
+        <div class="row jumbotron">
+        <div class="col-sm-12">
+            <div class="welcome">
+                <h3 id="center">Welcome to Website Name...</h3>
             </div>
         </div>
-    ...
- <div class="col-md-8 col-md-offset-2" >
-      <form id="quiz" name="quiz">
-          <h3 style="text-align: center; color: white; font-size:30px;"><b>Start</b></h3>   <br><br>
-        
-          <div class="col-sm-12">
-          <div class="radio-inline">
-               <label>1)What is the meaning of pakistan?</label><br>
-               <input type="radio" id="mc" name="question1" class="form-control"value="Muslim land" autocomplete="off">Muslim land</input><br>
-               <input type="radio" id="mc" name="question1" class="form-control"value="lake" autocomplete="off">lake<br>
-               <input type="radio" id="mc" name="question1" class="form-control" value="pure river" autocomplete="off">pure river<br>
-               </div>
+        </div>
+
+
+        <div class="row">
+            
+            <div class="col-sm-8" id="summary" >
+                <h3><b>Beautiful Nature</b></h3>   
+                <p><img src="images/2.jpg" class="img-responsive img-thumbnail" id="pic1" hspace="5" vspace="5"> 
+                    <br>
+                    It has roots in a piece of classical Latin literature from 45 BC, 
+                    making it over 2000 years old. Richard McClintock, a Latin
+                     professor at Hampden-Sydney College in Virginia, looked up one
+                      of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+                      passage, and going through the cites of the word in classical 
+                      literature, discovered the undoubtable source. Lorem Ipsum comes
+                       from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+                        (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                         This book is a treatise on the theory of ethics, very popular 
+                         during the Renaissance. The first line of Lorem Ipsum, 
+                         "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                         The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                          below for those interested. Sections 1.10.32 and 1.10.33 from 
+                          "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                          in their exact original form, accompanied by English versions 
+                          from the 1914 translation by H. Rackham.
+                          This book is a treatise on the theory of ethics, very popular 
+                          during the Renaissance. The first line of Lorem Ipsum, 
+                          "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                          The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                           below for those interested. Sections 1.10.32 and 1.10.33 from 
+                           "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                           in their exact original form, accompanied by English versions 
+                           from the 1914 translation by H. Rackham.
+                           This book is a treatise on the theory of ethics, very popular 
+                           during the Renaissance. The first line of Lorem Ipsum, 
+                           "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                           The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                            below for those interested. Sections 1.10.32 and 1.10.33 from 
+                            "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                            in their exact original form, accompanied by English versions 
+                            from the 1914 translation by H. Rackham. This book is a treatise on the theory of ethics, very popular 
+                            during the Renaissance. The first line of Lorem Ipsum, 
+                            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                             below for those interested. Sections 1.10.32 and 1.10.33 from 
+                             "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                             in their exact original form, accompanied by English versions 
+                             from the 1914 translation by H. Rackham.
+                             from the 1914 translation by H. Rackham.xact original form, accompanied by English versions 
+                             from the 1914 translation by H. Rackham. This book is a treatise on the theory of ethics, very popular 
+                             during the Renaissance. The first line of Lorem Ipsum, 
+                             "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                             The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                              below for those interested. Sections 1.10.32 and 1.10.33 from xact original form, accompanied by English versions 
+                              from the 1914 translation by H. Rackham. This book is a treatise on the theory of ethics, very popular 
+                              during the Renaissance. The first line of Lorem Ipsum, 
+                              "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                              The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                               below for those interested. Sections 1.10.32 and 1.10.33 from .
+                </p>
+            </div>
+            
+            <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                            <div class="panel-heading">Latest news</div>
+                            <div class="panel-body">
+                                <p><img src="images/3.jpg" class="img-responsive img-thumbnail" id="panimg" hspace="5" vspace="5" >
+                                    <br>Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                   The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                                     below for those interested. Sections 1.10.32 and 1.10.33 from 
+                                     "de Finibus
+                                </p>   
+                              </div>
+
+                              <div class="panel-body">
+                                    <p><img src="images/4.jpg" class="img-responsive img-thumbnail" id="panimg" hspace="5" vspace="5" >
+                                        <br>Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                       The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                                         below for those interested. Sections 1.10.32 and 1.10.33 from 
+                                         "de Finibus
+                                    </p>   
+                                  </div>
+
+                                  <div class="panel-body">
+                                        <p><img src="images/6.jpg" class="img-responsive img-thumbnail" id="panimg" hspace="5" vspace="5" >
+                                            <br>Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                           The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                                             below for those interested. Sections 1.10.32 and 1.10.33 from 
+                                             "de Finibus
+                                        </p>   
+                                      </div>
+
+                                   
+                          </div>
+
+                          
+             </div>
+        </div>
+
+<br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Karachi</h2>
+              <img src="images/7.jpg" class="img-responsive img-circle" id="img1" hspace="5" vspace="5">
+              <p>
+                    Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                      below for those interested. Sections 1.10.32 and 1.10.33 from 
+                      "de Finibus 
+              </p>
+            </div>
+            <div class="col-sm-4">
+                    <h2>Lahore</h2>
+                    <img src="images/8.jpg" class="img-responsive img-rounded" id="img1" hspace="5" vspace="5">
+                    <p>
+                          Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                          The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                            below for those interested. Sections 1.10.32 and 1.10.33 from 
+                            "de Finibus 
+                    </p>
+             </div>
+           <div class="col-sm-4">
+                <h2>Islamabad</h2>
+                <img src="images/9.jpg" class="img-responsive img-thumbnail" id="img1" hspace="5" vspace="5">
+                <p>
+                      Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                      The standard chunk of Lorem Ipsum used since the 1500s is reproduce
+                        below for those interested. Sections 1.10.32 and 1.10.33 from 
+                        "de Finibus 
+                </p>
+             </div>
+        </div>
+    </div>
+<br><br><br><br>
+ <hr>
+  <div class="container-fluid navbar-default">
+      <div class="row">
+          <div class="col-sm-8">
+              <p> If you have any questions, comments, or concerns, please E-Mail me at mahiriaz99@gmail.com</p>
           </div>
-               <br><br>  
-         
-               <div class="col-sm-12">
-          <div class="radio-inline">
-          <label>2)When did Pakistan become a Republic?</label><br>
-          <input type="radio" id="mc" name="question2" class="form-control"value="14-8-1947" autocomplete="off">14-8-1947</input><br>
-          <input type="radio" id="mc" name="question2" class="form-control"value="15-8-1947" autocomplete="off">15-8-1947<br>
-          <input type="radio" id="mc" name="question2" class="form-control" value="22-8-1967" autocomplete="off">22-8-1967<br>
-          </div>
-               </div>
-               
-         
-          <br><br>
-          <div class="col-sm-12">
-          <div class="radio-inline">
-          <label>3)Which is the national language of Pakistan?</label><br>
-          <input type="radio" id="mc" name="question3" class="form-control"value="Hindi" autocomplete="off">Hindi<br>
-          <input type="radio" id="mc" name="question3"class="form-control" value="English" autocomplete="off">English<br>
-          <input type="radio" id="mc" name="question3" class="form-control"value="Urdu" autocomplete="off">Urdu<br>
-         </div>
-          </div>
-         
-         <br><br>
-         <div class="col-sm-12">
-         <div class="radio-inline">
-               <label>4)Who was the first governer general of Pakistan?</label><br>
-         <input type="radio" id="mc" name="question4" class="form-control" value="Mohammad Ali Jinnah"autocomplete="off">Mohammad Ali Jinnah<br>
-        <input type="radio" id="mc" name="question4" class="form-control" value="Liaquat Ali Khan" autocomplete="off">Liaquat Ali Khan<br>
-          <input type="radio" id="mc" name="question4" class="form-control" value="Ayub Khan" autocomplete="off">Ayub Khan<br>
+          <div class="col-sm-4">
+              <p>Copyright © 1999-2019All Rights Reserved.
+              </p>
+            </div>
+            
       </div>
-         </div>
-      
-      <br><br>
-      <div class="col-sm-12">
-      <div class="radio-inline">
-       <label>5)What was the major event of 1971?</label><br>
-          <input type="radio" id="mc" name="question5" class="form-control" value="Bangladesh broke away from pakistan" autocomplete="off" style="color:white;">Bangladesh broke away from pakistan<br>
-          <input type="radio" id="mc" name="question5" class="form-control" value="Explosion of nuclear bomb" autocomplete="off">Explosion of nuclear bomb<br>
-                 <input type="radio" id="mc" name="question5" class="form-control" value="Nawaz sharif become prime minister" autocomplete="off">Nawaz sharif become prime minister<br>
-      </div>
-      </div>
-      
-      
-      <br><br>
-      <div class="col-sm-12">
-      <div class="radio-inline">
-          <label>6)Sindth was seperated from which presidency? </label><br>
-          <input type="radio" id="mc" name="question6" class="form-control" value="India" autocomplete="off">India<br>
-          <input type="radio" id="mc" name="question6" class="form-control" value="Bangladesh" autocomplete="off">Bangladesh<br>
-          <input type="radio" id="mc" name="question6" class="form-control" value="Bombay" autocomplete="off">Bombay<br>
-      </div>
-      </div>
-      
-      <br><br> 
-      
-          <br>
-      <input id="button" type="button" value="I'm finished." onclick="check();"></input><br><br>
-      </form>
-   
+  </div>
 
 
-     
 
 
-      
-   <div id="after_submit"><br>
-       <p id="msg"></p>
-    <p id="correct_num">You finished! good job.</p>
-    <img id="pic"><br><br><br><br><br><br>
-   </div>
-
-
-  
 </body>
 </html>
