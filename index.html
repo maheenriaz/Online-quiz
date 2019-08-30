@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+         <link href="style.css" rel="stylesheet">
+            <title>Bootstrap Example</title>
+            <meta charset="utf-8">
+            <script src="quiz.js">  </script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <!----------------animation files----------->
+            <link rel="stylesheet" href="css/animate.css">
+       <script src= js/jquery.min.js></script></head>
+       <script src="js/bootstrap.min.js"></script>
+<body>
+      <div class="row">
+            <div class="container">
+                <h1>ONLINE QUIZ</h1>
+            </div>
+        </div>
+    ...
+ <div class="col-md-8 col-md-offset-2" >
+      <form id="quiz" name="quiz">
+          <h3 style="text-align: center; color: white; font-size:30px;"><b>Start</b></h3>   <br><br>
+        
+          <div class="col-sm-12">
+          <div class="radio-inline">
+               <label>1)What is the meaning of pakistan?</label><br>
+               <input type="radio" id="mc" name="question1" class="form-control"value="Muslim land" autocomplete="off">Muslim land</input><br>
+               <input type="radio" id="mc" name="question1" class="form-control"value="lake" autocomplete="off">lake<br>
+               <input type="radio" id="mc" name="question1" class="form-control" value="pure river" autocomplete="off">pure river<br>
+               </div>
+          </div>
+               <br><br>  
+         
+               <div class="col-sm-12">
+          <div class="radio-inline">
+          <label>2)When did Pakistan become a Republic?</label><br>
+          <input type="radio" id="mc" name="question2" class="form-control"value="14-8-1947" autocomplete="off">14-8-1947</input><br>
+          <input type="radio" id="mc" name="question2" class="form-control"value="15-8-1947" autocomplete="off">15-8-1947<br>
+          <input type="radio" id="mc" name="question2" class="form-control" value="22-8-1967" autocomplete="off">22-8-1967<br>
+          </div>
+               </div>
+               
+         
+          <br><br>
+          <div class="col-sm-12">
+          <div class="radio-inline">
+          <label>3)Which is the national language of Pakistan?</label><br>
+          <input type="radio" id="mc" name="question3" class="form-control"value="Hindi" autocomplete="off">Hindi<br>
+          <input type="radio" id="mc" name="question3"class="form-control" value="English" autocomplete="off">English<br>
+          <input type="radio" id="mc" name="question3" class="form-control"value="Urdu" autocomplete="off">Urdu<br>
+         </div>
+          </div>
+         
+         <br><br>
+         <div class="col-sm-12">
+         <div class="radio-inline">
+               <label>4)Who was the first governer general of Pakistan?</label><br>
+         <input type="radio" id="mc" name="question4" class="form-control" value="Mohammad Ali Jinnah"autocomplete="off">Mohammad Ali Jinnah<br>
+        <input type="radio" id="mc" name="question4" class="form-control" value="Liaquat Ali Khan" autocomplete="off">Liaquat Ali Khan<br>
+          <input type="radio" id="mc" name="question4" class="form-control" value="Ayub Khan" autocomplete="off">Ayub Khan<br>
+      </div>
+         </div>
+      
+      <br><br>
+      <div class="col-sm-12">
+      <div class="radio-inline">
+       <label>5)What was the major event of 1971?</label><br>
+          <input type="radio" id="mc" name="question5" class="form-control" value="Bangladesh broke away from pakistan" autocomplete="off" style="color:white;">Bangladesh broke away from pakistan<br>
+          <input type="radio" id="mc" name="question5" class="form-control" value="Explosion of nuclear bomb" autocomplete="off">Explosion of nuclear bomb<br>
+                 <input type="radio" id="mc" name="question5" class="form-control" value="Nawaz sharif become prime minister" autocomplete="off">Nawaz sharif become prime minister<br>
+      </div>
+      </div>
+      
+      
+      <br><br>
+      <div class="col-sm-12">
+      <div class="radio-inline">
+          <label>6)Sindth was seperated from which presidency? </label><br>
+          <input type="radio" id="mc" name="question6" class="form-control" value="India" autocomplete="off">India<br>
+          <input type="radio" id="mc" name="question6" class="form-control" value="Bangladesh" autocomplete="off">Bangladesh<br>
+          <input type="radio" id="mc" name="question6" class="form-control" value="Bombay" autocomplete="off">Bombay<br>
+      </div>
+      </div>
+      
+      <br><br> 
+      
+          <br>
+      <input id="button" type="button" value="I'm finished." onclick="check();"></input><br><br>
+      </form>
+   
+
+
+     
+
+
+      
+   <div id="after_submit"><br>
+       <p id="msg"></p>
+    <p id="correct_num">You finished! good job.</p>
+    <img id="pic"><br><br><br><br><br><br>
+   </div>
+
+
+  
+</body>
+</html>
